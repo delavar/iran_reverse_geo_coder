@@ -1,0 +1,21 @@
+Django == 2.2
+cryptography
+djangorestframework
+
+mysqlclient
+
+pyOpenSSL==16.2.0
+
+#sudo apt-get install python3-pil
+pillow
+
+uwsgi
+
+khayyam
+drf_autodocs
+requests
+coreapi
+django-filter
+
+
+reverse_geocoder

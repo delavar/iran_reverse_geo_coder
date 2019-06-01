@@ -1,0 +1,10 @@
+DEBUG = True
+DEVEL = True
+
+DB_NAME = ""
+DB_USER = ""
+DB_PASS = ""
+DB_HOST = "localhost"
+
+BASE_URL = "http://127.0.0.1:8000"
+LOCAL_ALLOWED_HOSTS = ['*']
