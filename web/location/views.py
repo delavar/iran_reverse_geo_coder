@@ -49,7 +49,7 @@ class SearchView(views.APIView):
             response['data'] = {"place": "for example place=23.2333,34.6666"}
             return Response(data=response, status=status.HTTP_400_BAD_REQUEST, content_type='application/json')
 
-        rg.RGeocoder(mode=2, verbose=True,
+        reverse_geocoder.RGeocoder(mode=2, verbose=True,
                      stream=io.StringIO(open('location/city_reverse_geo.csv', encoding='utf-8').read()))
         coordinates = (location[0], location[1]),
         results = rg.search(coordinates)
